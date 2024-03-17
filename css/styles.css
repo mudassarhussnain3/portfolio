@@ -372,7 +372,7 @@ input[type='checkbox'] {
 /*     Navigation     */
 /**********************/
 .navbar {
-	background-color: #24262a;
+	background-color: #0e0f11;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0.875rem;
@@ -438,12 +438,12 @@ input[type='checkbox'] {
 	color: #9c9ead;
 }
 
-/* Dropdown Menu */
+/* Dropdown Menu
 .navbar .dropdown .dropdown-menu {
 	animation: fadeDropdown 0.2s; /* required for the fade animation */
-}
+/* } */
 
-@keyframes fadeDropdown {
+/* @keyframes fadeDropdown {
     0% {
         opacity: 0;
     }
@@ -451,7 +451,7 @@ input[type='checkbox'] {
     100% {
         opacity: 1;
 	}
-}
+}  */
 
 .navbar .dropdown-menu {
 	margin-top: 0.5rem;
@@ -521,14 +521,15 @@ input[type='checkbox'] {
 .header {
 	padding-top: 7rem;
 	padding-bottom: 5.5rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(63, 3, 3, 0.1), rgba(0, 0, 0, 0.1)), url('../images/hello-world2.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
+	opacity: 3;
 }
 
 .header .h1-large {
 	margin-bottom: 1.75rem;
-	color: #ffffff;
+	color: #7bffbd;
 }
 
 .header .btn-solid-lg:hover {
