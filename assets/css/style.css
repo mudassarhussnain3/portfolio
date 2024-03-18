@@ -1023,6 +1023,26 @@ section {
     transform: rotate(360deg);
   }
 }
+/* .form-1 form {
+  width: 790px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.form-1 {
+	padding-top: 7.75rem;
+	padding-bottom: 7rem;
+	text-align: center;
+}
+
+.form-1 .h2-heading {
+	margin-bottom: 0.75rem;
+	text-align: center;
+}
+
+.form-1 .p-heading {
+	margin-bottom: 4rem;
+} */
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs

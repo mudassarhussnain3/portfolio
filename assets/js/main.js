@@ -3,7 +3,12 @@
 * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
+
 */
+function loadResume(){
+  console.log('inside load resume')
+  // window.load("../");
+}
 (function() {
   "use strict";
 
