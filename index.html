@@ -458,7 +458,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="mailto:mudassarjutt8611@gmail.com?subject=Subject&body=Details" method="post" role="form" class="php-email-form">
+            <form onsubmit="sendEmail(event)" class="php-email-form">
               <div class="form-group">
                 <label for="subject">Subject</label>
                 <input type="text" class="form-control" name="subject" id="subject" required>
@@ -511,6 +511,16 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    function sendEmail(event) {
+        event.preventDefault(); 
+        const mail='mudassarjutt8611@gmail.com';
+        const subject = encodeURIComponent(document.getElementById("subject").value);
+        const body = encodeURIComponent(document.getElementById("details").value);
+        const mailtoUrl = `mailto:${mail}?subject=${subject}&body=${body}`;
+        window.location.href = mailtoUrl;
+    }
+</script>
 
 </body>
 
