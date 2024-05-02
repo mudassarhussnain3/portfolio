@@ -981,6 +981,9 @@ section {
   background: #149ddd;
   color: #fff;
 }
+.info:hover {
+  filter: brightness(90%);
+}
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,

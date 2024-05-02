@@ -233,16 +233,16 @@
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio section-bg contact">
-      <div class="container">
+      <div class="container" style="background-color: rgb(17, 32, 68);">
 
-        <div class="section-title">
-          <h2>Projects</h2>
+        <div class="section-title mt-3">
+          <h2 style="color: white !important;">Projects</h2>
         </div>
 
-        <div class="row" data-aos="fade-in">
+        <div class="row " data-aos="fade-in">
 
-          <div class="col-lg-6 d-flex align-items-stretch">
-            <div class="info" onclick="abc('ovadamd.org')">
+          <div class="col-lg-6 d-flex   align-items-stretch">
+            <div class="info mb-3" onclick="openweb('https://ovadamd.org')">
               <div class="container">
                 <div class="row">
                   <div class="col-4">
@@ -263,7 +263,7 @@
           </div>
 
           <div class="col-lg-6 d-flex align-items-stretch">
-            <div class="info" onclick="abc('ovadamd.org')">
+            <div class="info mb-3" onclick="openweb('https://www.unduit.com/')">
               <div class="container">
                 <div class="row">
                   <div class="col-4">
@@ -283,7 +283,7 @@
 
           </div>
           <div class="col-lg-6 d-flex align-items-stretch">
-            <div class="info" onclick="abc('ovadamd.org')">
+            <div class="info mb-3" onclick="openweb('https://www.ziofly.com')">
               <div class="container">
                 <div class="row">
                   <div class="col-4">
@@ -303,7 +303,7 @@
 
           </div>
           <div class="col-lg-6 d-flex align-items-stretch">
-            <div class="info" onclick="abc('ovadamd.org')">
+            <div class="info mb-3" onclick="openweb('ovadamd.org')">
               <div class="container">
                 <div class="row">
                   <div class="col-4">
@@ -323,7 +323,7 @@
 
           </div>
           <div class="col-lg-6 d-flex align-items-stretch">
-            <div class="info" onclick="abc('ovadamd.org')">
+            <div class="info mb-3" onclick="openweb('https://www.halftimehelp.com/')">
               <div class="container">
                 <div class="row">
                   <div class="col-4">
@@ -344,7 +344,7 @@
           </div>
 
           <div class="col-lg-6  d-flex align-items-stretch">
-            <div class="info" onclick="abc('ovadamd.org')">
+            <div class="info mb-3" onclick="openweb('ovadamd.org')">
               <div class="container">
                 <div class="row">
                   <div class="col-4">
@@ -365,7 +365,7 @@
           </div>
 
           <div class="col-lg-6 d-flex align-items-stretch">
-            <div class="info" onclick="abc('ovadamd.org')">
+            <div class="info mb-4" onclick="openweb('ovadamd.org')">
               <div class="container">
                 <div class="row">
                   <div class="col-4">
@@ -498,7 +498,11 @@
         }
       }
     </script>
-
+<script>
+  function openweb(link) {
+  window.open(link, '_blank');
+}
+</script>
     <script>
       function togglePopup(id) {
         var popup = document.getElementById(id);
